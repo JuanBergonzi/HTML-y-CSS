@@ -1,0 +1,9 @@
+span {
+    color: blue;
+}
+.ingrediente-faltante { 
+    color : red;
+}
+#ingrediente-secreto {
+    color: green;
+}

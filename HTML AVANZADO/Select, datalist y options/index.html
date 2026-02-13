@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select,Datalist y Options</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de Contacto</h2>
+        <fieldset> 
+            <legend>INFORMACION BASICA</legend>  <!-- SIMPLE INPUTS -->
+            <div class="form_input">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" placeholder="John Doe">
+            </div>
+            <div class="form_input">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="ejemplo@gmail">
+            </div>
+            <div class="form_input">
+                <label for="Asunto">Asunto</label>
+                <input type="text" id="email" placeholder="Asunto de tu mensaje">
+            </div>
+        </fieldset> 
+        <!-- SELECT & OPTION -->
+        <div class="form_input">
+            <label>Tipo de Usuario
+            <select name="type-of-user" id="">
+                <option value="user1">Seguidor/a</option>
+                <option value="user2">Empresa</option>
+                <option value="user3">Otros</option>
+            </select>
+            </label>
+        </div>
+
+        <!-- DATALAIST & OPTION -->
+        <div class="form_input">
+            <label>Referente
+                <input list="referente">
+                <datalist id="referente" type="type-of-user">
+                    <option>Juan</option>
+                    <option value="Una empresa">Una empresa del rubro IT</option>
+                    <option value="Un amigo">Me recomendo un amigo</option>
+                </datalist>
+            </label>
+        </div>
+
+        <!-- TEXTAREA -->
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" rows="3" placeholder="Deja tu mensaje"></textarea>
+        </div>
+
+    </form>
+</body>
+</html>
