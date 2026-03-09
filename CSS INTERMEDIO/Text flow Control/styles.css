@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #bbb;
+}
+
+.box {
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    border: 1px solid #0006;
+    margin: auto;
+    margin-top: 50px;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; para poner 3... como que continua con overflow: hidden y white-space: nowrap*/
+    overflow: hidden;
+}
+
+h1 {
+    text-wrap: balance;
+    /* balance solo para textos*/
+    /* para balancear parrafos usamos pretty */
+}

@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body {
+    box-sizing: border-box;
+}
+
+@media print {
+    body {
+        font-size: 200pt;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body {
+        font-size: 20px;
+    }
+}
